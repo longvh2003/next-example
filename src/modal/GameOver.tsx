@@ -18,7 +18,7 @@ export const GameOverModal = ({
 }) => {
   const messageTitle = () => {
     if (score < 70) {
-      return "u fuking bad bro(sis)!!!!";
+      return "u kinda bad bro(sis)!!!!";
     } else if (wordPerMin > 170) {
       return "ur parent proud of u!!";
     } else {
